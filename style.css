@@ -64,3 +64,5 @@ pre { margin: 5px 0; padding: 12px 15px; overflow-x: auto; background: #fcfcfc; 
   .framework img { width: 100%; }
   .case-grid { grid-template-columns: 1fr; gap: 24px; }
 }
+
+.plot-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.plot{text-align:center}.plot img{display:block;width:100%;height:auto}.plot span{font-size:11pt;color:#555}.pareto-figure{margin:25px auto 34px}@media(max-width:560px){.plot-grid{grid-template-columns:1fr}}
